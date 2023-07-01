@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-atmn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Atmn's eslint config",
   "type": "module",
   "main": "index.js",
