@@ -360,6 +360,25 @@ export default {
     // disallow use of the with statement
     "no-with": "error",
 
+    "padding-line-between-statements": [
+      "error",
+      {
+        blankLine: "always",
+        prev: "function",
+        next: "*",
+      },
+      {
+        blankLine: "always",
+        prev: "class",
+        next: "*",
+      },
+      {
+        blankLine: "always",
+        prev: "export",
+        next: "*",
+      },
+    ],
+
     // require using Error objects as Promise rejection reasons
     // https://eslint.org/docs/rules/prefer-promise-reject-errors
     "prefer-promise-reject-errors": ["error", { allowEmptyReject: true }],
