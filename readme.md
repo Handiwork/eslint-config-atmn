@@ -8,6 +8,8 @@ All base configurations and plugins are used as **dependencies**.
 
 **Note:** if you are using [vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extension, turn flat config option on, please.
 
+- v1.2.0: cjs supported.
+
 ## Installation
 
 Install eslint-config-atmn:

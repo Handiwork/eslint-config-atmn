@@ -1,5 +1,5 @@
 import plugin from "@typescript-eslint/eslint-plugin";
-import parser from "@typescript-eslint/parser";
+import * as parser from "@typescript-eslint/parser";
 export default {
   plugins: {
     "@typescript-eslint": plugin,
