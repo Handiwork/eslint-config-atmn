@@ -26,7 +26,17 @@ import atmn from "eslint-config-atmn";
 export default [
   ...atmn, // as base config
   // your own config
-]
+];
+```
+
+for commonjs:
+```js
+const atmn = require("eslint-config-atmn/cjs").default;
+
+module.exports = [
+  ...atmn, // as base config
+  // your own config
+];
 ```
 
 ### Peer dependencies

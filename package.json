@@ -8,9 +8,13 @@
   "type": "module",
   "exports": {
     ".": {
-      "default": "./cjs/index.cjs",
+      "default": "./esm/index.js",
       "import": "./esm/index.js",
       "require": "./cjs/index.cjs",
+      "types": "./index.d.ts"
+    },
+    "./cjs": {
+      "default": "./cjs/index.cjs",
       "types": "./index.d.ts"
     }
   },
